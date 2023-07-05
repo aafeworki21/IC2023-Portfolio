@@ -11,3 +11,10 @@
         margin-left: 10px;
         margin-right: 20px;
       }
+
+      header {
+        background-image: url("https://cdn.wallpapersafari.com/14/36/S38pnJ.jpg");
+       background-repeat: no-repeat;
+       background-size: 100%;
+         color: white;
+         padding: 20px 16px; }
