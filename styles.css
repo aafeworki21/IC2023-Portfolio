@@ -1,20 +1,20 @@
-
-    .Header-1 {
+.Header-1 {
     font-family: "Montserrat";
     text-indent: 100px;
-    }
+}
 
-    .r{
-        display: flex;
-      flex-direction: row;
-        margin-top: 2px;
-        margin-left: 10px;
-        margin-right: 20px;
-      }
+.r {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
 
-      header {
-        background-image: url("https://i.pinimg.com/originals/3d/ff/a0/3dffa0f0a6f997f815fe3931ed62b03e.jpg");
-       background-repeat: no-repeat;
-       background-size: 100%;
-         color: rgb(68, 205, 22);
-         padding: 20px 16px; }
+.Header-1{
+    background-image: url("https://i.pinimg.com/originals/3d/ff/a0/3dffa0f0a6f997f815fe3931ed62b03e.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: rgb(68, 205, 22);
+    padding: 20px 16px;
+}
