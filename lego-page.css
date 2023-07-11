@@ -1,0 +1,63 @@
+body
+{
+    background-image: url("images/LEGO wall gif.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:10vh;
+    color: white;
+}
+
+
+.home-image {
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+
+.home-button {
+    margin-top: 25px;
+    margin-left: 1300px;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+
+.home-button:hover {
+    filter: brightness(80%)
+}
+
+.back-image {
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+
+.back-button {
+    margin-top: 1vh;
+    margin-left: 1300px;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+.back-button:hover {
+    filter: brightness(80%)
+}
+
+.LEGOs {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: -24vh;
+    font-family: Baskerville, serif;
+
+}
+
+.LEGOs-text {
+    font-family: Baskerville, serif;
+    font-size: large;
+    text-align: center;
+}

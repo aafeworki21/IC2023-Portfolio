@@ -1,0 +1,31 @@
+.home-image {
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+
+.home-button {
+    margin-top: 20px;
+    margin-left: 1300px;
+    height: 100px;
+    width: 100px;
+    border-radius: 1000px;
+}
+
+.home-button:hover {
+    filter: brightness(80%)
+}
+
+
+
+body
+{
+    background-image: url("https://w0.peakpx.com/wallpaper/286/605/HD-wallpaper-oneplus-6-abstract-amoled-black-red-trutone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height:10vh;
+    color: white;
+}

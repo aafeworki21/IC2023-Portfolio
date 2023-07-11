@@ -1,9 +1,10 @@
 
 
 .headshot {
-    margin-left: 21.5vw;
-    height: 160%;
-    width: 37%;
+    margin-top: -5vh;
+    margin-left: 35vh;
+    height: 195%;
+    width: 46%;
     border-radius: 1000px;
     
     animation: Fade 1s linear;
@@ -11,11 +12,10 @@
 
 .header1 {
     font-family: "Monaco", Monospace;
-    text-shadow: black;
     text-align: center;
    
-    -webkit-animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;   
+    -webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;  
 }
 
 
@@ -26,13 +26,14 @@
 
 
 .interests {
-    margin-left: 300px;
+    margin-top: -10vh;
+    margin-left: 400px;
     height: 100px;
     width: 100px;
     border-radius: 1000px;
-    animation: Fade 1s linear;
-    -webkit-animation: bounce-in-fwd 1s both;
-            animation: bounce-in-fwd 1s both;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s both;
+
 }
 
 .light-bulb {
@@ -47,11 +48,11 @@
 .text-interests {
     font-family: "Monaco", Monospace;
     text-shadow: black;
-    margin-left: 430px;
+    margin-left: 550px;
     margin-top: -70px;
     font-size: 40px;
-    -webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.2s both;
+    animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.2s both;
 }
 
 
@@ -62,13 +63,13 @@
 
 
 .career {
-    margin-left: 300px;
+    margin-left: 400px;
     height: 100px;
     width: 100px;
     border-radius: 1000px;
 
-    -webkit-animation: bounce-in-fwd 1s 0.2s both;
-            animation: bounce-in-fwd 1s 0.2s both;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.3s both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.3s both;
 }
 
 .money {
@@ -84,11 +85,11 @@
 .text-career {
     font-family: "Monaco", Monospace;
     text-shadow: black;
-    margin-left: 685px;
+    margin-left: 550px;
     margin-top: -80px;
     font-size: 40px;
-    -webkit-animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
+    animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.5s both;
 }
 
 
@@ -100,13 +101,13 @@
 
 
 .achievements {
-    margin-left: 300px;
+    margin-left: 400px;
     height: 100px;
     width: 100px;
     border-radius: 1000px; 
     
-	-webkit-animation: bounce-in-fwd 1s 0.4s both;
-	        animation: bounce-in-fwd 1s 0.4s both;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.6s both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.6s both;
 }
 
 .check-mark {
@@ -122,11 +123,11 @@
 .text-achievements {
     font-family: "Monaco", Monospace;
     text-shadow: black;
-    margin-left: 430px;
+    margin-left: 550px;
     margin-top: -80px;
     font-size: 40px;
-    -webkit-animation: fade-in-left 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
-	        animation: fade-in-left 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+    -webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.7s both;
+	        animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.7s both;
 }
 
 
@@ -139,12 +140,12 @@
 
 
 .projects {
-    margin-left: 300px;
+    margin-left: 400px;
     height: 100px;
     width: 100px;
     border-radius: 1000px;
-    -webkit-animation: bounce-in-fwd 1s 0.6s both;
-            animation: bounce-in-fwd 1s 0.6s both;
+    -webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.8s both;
+    animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3.8s both;
 }
 
 .gear {
@@ -160,11 +161,11 @@
 .text-projects {
     font-family: "Monaco", Monospace;
     text-shadow: black;
-    margin-left: 780px;
+    margin-left: 550px;
     margin-top: -80px;
     font-size: 40px;
-    -webkit-animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-    animation: fade-in-left 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.9s both;
+    animation: fade-in-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 3.9s both;
 }
 
 
@@ -180,12 +181,13 @@
 
 body
 {
-    background-image: url("https://images.unsplash.com/photo-1600932717369-d507b606a25d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwYXJ0fGVufDB8fDB8fHww&w=1000&q=80");
+    background-image: url("images/Screenshot 2023-07-10 at 3.36.28 PM.png");
     background-repeat: no-repeat;
     background-size: cover;
     width:100vw;
     height:10vh;
     color: white;
+
 }
  
 
@@ -496,56 +498,93 @@ body
               animation-timing-function: ease-out;
     }
   }
-  @keyframes bounce-in-fwd {
+  
+
+
+
+
+
+/* ----------------------------------------------
+ * Generated by Animista on 2023-7-10 16:57:29
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation scale-in-center THIS IS FOR TEXT!!!!!!!!
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-in-center {
     0% {
       -webkit-transform: scale(0);
               transform: scale(0);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-      opacity: 0;
-    }
-    38% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
       opacity: 1;
-    }
-    55% {
-      -webkit-transform: scale(0.7);
-              transform: scale(0.7);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    72% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    81% {
-      -webkit-transform: scale(0.84);
-              transform: scale(0.84);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    89% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    95% {
-      -webkit-transform: scale(0.95);
-              transform: scale(0.95);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
     }
     100% {
       -webkit-transform: scale(1);
               transform: scale(1);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+
+
+  /* ----------------------------------------------
+ * Generated by Animista on 2023-7-10 17:8:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shadow-drop-2-center THIS IS FOR IMAGES!!!!!!!
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-2-center {
+    0% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: translateZ(50px);
+              transform: translateZ(50px);
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
   }
   
